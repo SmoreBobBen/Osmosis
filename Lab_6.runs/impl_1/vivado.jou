@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Feb 25 19:24:20 2025
+# Process ID: 49500
+# Current directory: /home/bdwatkin/Desktop/Lab_6/Lab_6.runs/impl_1
+# Command line: vivado -log Lab6Top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Lab6Top.tcl -notrace
+# Log file: /home/bdwatkin/Desktop/Lab_6/Lab_6.runs/impl_1/Lab6Top.vdi
+# Journal file: /home/bdwatkin/Desktop/Lab_6/Lab_6.runs/impl_1/vivado.jou
+# Running On: BELSPC0189, OS: Linux, CPU Frequency: 3445.943 MHz, CPU Physical cores: 4, Host memory: 16649 MB
+#-----------------------------------------------------------
+source Lab6Top.tcl -notrace

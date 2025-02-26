@@ -1,0 +1,712 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Feb 25 19:20:05 2025
+# Process ID: 48474
+# Current directory: /home/bdwatkin
+# Command line: vivado
+# Log file: /home/bdwatkin/vivado.log
+# Journal file: /home/bdwatkin/vivado.jou
+# Running On: BELSPC0189, OS: Linux, CPU Frequency: 3304.485 MHz, CPU Physical cores: 4, Host memory: 16649 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24c:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k24c/1.0/board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24i:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k24i/1.0/board.xml as part xck24-ubva530-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.3 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.2/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.3 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.3/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.4/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kd240_som:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kd240_som/1.0/board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.0/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.1/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.3 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project /home/bdwatkin/Desktop/Lab_6/Lab_6.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/bdwatkin/Desktop/Lab_6/Lab_6.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2023.2/data/ip'.
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: Lab6Top
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 48625
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'rdi::get_data_dir' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+7 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 8426.754 ; gain = 702.020 ; free physical = 8402 ; free virtual = 13977
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2278.014; main = 1849.303; forked = 428.711
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 9415.961; main = 8426.758; forked = 989.203
+INFO: [Common 17-344] 'synth_design' was cancelled
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: Lab6Top
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AIE_ML_NOC_M_AXI' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:128]
+INFO: [Synth 8-9937] previous definition of design element 'AIE_ML_NOC_M_AXI' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:128]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AIE_ML_NOC_M_AXIS' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:160]
+INFO: [Synth 8-9937] previous definition of design element 'AIE_ML_NOC_M_AXIS' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:160]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AIE_ML_NOC_S_AXI' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:270]
+INFO: [Synth 8-9937] previous definition of design element 'AIE_ML_NOC_S_AXI' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:270]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AIE_ML_NOC_S_AXIS' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:302]
+INFO: [Synth 8-9937] previous definition of design element 'AIE_ML_NOC_S_AXIS' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:302]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AIE_ML_PL_M_AXIS128' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:322]
+INFO: [Synth 8-9937] previous definition of design element 'AIE_ML_PL_M_AXIS128' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:322]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AIE_ML_PL_M_AXIS32' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:342]
+INFO: [Synth 8-9937] previous definition of design element 'AIE_ML_PL_M_AXIS32' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:342]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AIE_ML_PL_M_AXIS64' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:362]
+INFO: [Synth 8-9937] previous definition of design element 'AIE_ML_PL_M_AXIS64' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:362]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AIE_ML_PL_M_EVENTS' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:372]
+INFO: [Synth 8-9937] previous definition of design element 'AIE_ML_PL_M_EVENTS' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:372]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AIE_ML_PL_S_AXIS128' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:392]
+INFO: [Synth 8-9937] previous definition of design element 'AIE_ML_PL_S_AXIS128' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:392]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AIE_ML_PL_S_AXIS32' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:412]
+INFO: [Synth 8-9937] previous definition of design element 'AIE_ML_PL_S_AXIS32' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:412]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AIE_ML_PL_S_AXIS64' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:432]
+INFO: [Synth 8-9937] previous definition of design element 'AIE_ML_PL_S_AXIS64' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:432]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AIE_ML_PL_S_EVENTS' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:442]
+INFO: [Synth 8-9937] previous definition of design element 'AIE_ML_PL_S_EVENTS' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:442]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AIE_NOC_M_AXI' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:560]
+INFO: [Synth 8-9937] previous definition of design element 'AIE_NOC_M_AXI' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:560]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AIE_NOC_M_AXIS' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:592]
+INFO: [Synth 8-9937] previous definition of design element 'AIE_NOC_M_AXIS' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:592]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AIE_NOC_S_AXI' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:702]
+INFO: [Synth 8-9937] previous definition of design element 'AIE_NOC_S_AXI' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:702]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AIE_NOC_S_AXIS' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:734]
+INFO: [Synth 8-9937] previous definition of design element 'AIE_NOC_S_AXIS' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:734]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AIE_PL_M_AXIS128' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:754]
+INFO: [Synth 8-9937] previous definition of design element 'AIE_PL_M_AXIS128' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:754]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AIE_PL_M_AXIS32' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:774]
+INFO: [Synth 8-9937] previous definition of design element 'AIE_PL_M_AXIS32' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:774]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AIE_PL_M_AXIS64' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:794]
+INFO: [Synth 8-9937] previous definition of design element 'AIE_PL_M_AXIS64' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:794]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AIE_PL_M_EVENTS' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:804]
+INFO: [Synth 8-9937] previous definition of design element 'AIE_PL_M_EVENTS' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:804]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AIE_PL_S_AXIS128' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:824]
+INFO: [Synth 8-9937] previous definition of design element 'AIE_PL_S_AXIS128' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:824]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AIE_PL_S_AXIS32' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:844]
+INFO: [Synth 8-9937] previous definition of design element 'AIE_PL_S_AXIS32' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:844]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AIE_PL_S_AXIS64' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:864]
+INFO: [Synth 8-9937] previous definition of design element 'AIE_PL_S_AXIS64' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:864]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AIE_PL_S_EVENTS' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:874]
+INFO: [Synth 8-9937] previous definition of design element 'AIE_PL_S_EVENTS' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:874]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AMS_ADC' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:888]
+INFO: [Synth 8-9937] previous definition of design element 'AMS_ADC' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:888]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AMS_DAC' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:902]
+INFO: [Synth 8-9937] previous definition of design element 'AMS_DAC' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:902]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AND2' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:914]
+INFO: [Synth 8-9937] previous definition of design element 'AND2' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:914]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AND2B1' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:926]
+INFO: [Synth 8-9937] previous definition of design element 'AND2B1' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:926]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AND2B1L' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:939]
+INFO: [Synth 8-9937] previous definition of design element 'AND2B1L' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:939]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AND2B2' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:950]
+INFO: [Synth 8-9937] previous definition of design element 'AND2B2' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:950]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AND3' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:962]
+INFO: [Synth 8-9937] previous definition of design element 'AND3' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:962]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AND3B1' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:974]
+INFO: [Synth 8-9937] previous definition of design element 'AND3B1' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:974]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AND3B2' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:986]
+INFO: [Synth 8-9937] previous definition of design element 'AND3B2' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:986]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AND3B3' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:998]
+INFO: [Synth 8-9937] previous definition of design element 'AND3B3' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:998]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AND4' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1011]
+INFO: [Synth 8-9937] previous definition of design element 'AND4' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1011]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AND4B1' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1024]
+INFO: [Synth 8-9937] previous definition of design element 'AND4B1' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1024]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AND4B2' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1037]
+INFO: [Synth 8-9937] previous definition of design element 'AND4B2' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1037]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AND4B3' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1050]
+INFO: [Synth 8-9937] previous definition of design element 'AND4B3' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1050]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AND4B4' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1063]
+INFO: [Synth 8-9937] previous definition of design element 'AND4B4' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1063]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AND5' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1077]
+INFO: [Synth 8-9937] previous definition of design element 'AND5' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1077]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AND5B1' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1091]
+INFO: [Synth 8-9937] previous definition of design element 'AND5B1' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1091]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AND5B2' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1105]
+INFO: [Synth 8-9937] previous definition of design element 'AND5B2' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1105]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AND5B3' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1119]
+INFO: [Synth 8-9937] previous definition of design element 'AND5B3' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1119]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AND5B4' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1133]
+INFO: [Synth 8-9937] previous definition of design element 'AND5B4' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1133]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AND5B5' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1147]
+INFO: [Synth 8-9937] previous definition of design element 'AND5B5' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1147]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AUTOBUF' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1158]
+INFO: [Synth 8-9937] previous definition of design element 'AUTOBUF' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1158]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BFR_MATMULX' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1595]
+INFO: [Synth 8-9937] previous definition of design element 'BFR_MATMULX' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1595]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BIBUF' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1605]
+INFO: [Synth 8-9937] previous definition of design element 'BIBUF' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1605]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BITSLICE_CONTROL' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1749]
+INFO: [Synth 8-9937] previous definition of design element 'BITSLICE_CONTROL' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1749]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BSCANE2' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1779]
+INFO: [Synth 8-9937] previous definition of design element 'BSCANE2' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1779]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BSCAN_SPARTAN3' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1798]
+INFO: [Synth 8-9937] previous definition of design element 'BSCAN_SPARTAN3' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1798]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BSCAN_SPARTAN3A' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1819]
+INFO: [Synth 8-9937] previous definition of design element 'BSCAN_SPARTAN3A' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1819]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BSCAN_SPARTAN6' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1839]
+INFO: [Synth 8-9937] previous definition of design element 'BSCAN_SPARTAN6' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1839]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BSCAN_VIRTEX4' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1856]
+INFO: [Synth 8-9937] previous definition of design element 'BSCAN_VIRTEX4' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1856]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BSCAN_VIRTEX5' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1873]
+INFO: [Synth 8-9937] previous definition of design element 'BSCAN_VIRTEX5' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1873]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BSCAN_VIRTEX6' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1894]
+INFO: [Synth 8-9937] previous definition of design element 'BSCAN_VIRTEX6' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1894]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUF' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1904]
+INFO: [Synth 8-9937] previous definition of design element 'BUF' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1904]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFCE_LEAF' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1919]
+INFO: [Synth 8-9937] previous definition of design element 'BUFCE_LEAF' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1919]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFCE_ROW' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1934]
+INFO: [Synth 8-9937] previous definition of design element 'BUFCE_ROW' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1934]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFDIV_LEAF' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1948]
+INFO: [Synth 8-9937] previous definition of design element 'BUFDIV_LEAF' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1948]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFG' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1958]
+INFO: [Synth 8-9937] previous definition of design element 'BUFG' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1958]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFGCE' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1975]
+INFO: [Synth 8-9937] previous definition of design element 'BUFGCE' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1975]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFGCE_1' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1987]
+INFO: [Synth 8-9937] previous definition of design element 'BUFGCE_1' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1987]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFGCE_DIV' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2009]
+INFO: [Synth 8-9937] previous definition of design element 'BUFGCE_DIV' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2009]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFGCTRL' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2048]
+INFO: [Synth 8-9937] previous definition of design element 'BUFGCTRL' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2048]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFGMUX' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2063]
+INFO: [Synth 8-9937] previous definition of design element 'BUFGMUX' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2063]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFGMUX_1' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2076]
+INFO: [Synth 8-9937] previous definition of design element 'BUFGMUX_1' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2076]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFGMUX_CTRL' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2090]
+INFO: [Synth 8-9937] previous definition of design element 'BUFGMUX_CTRL' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2090]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFGMUX_VIRTEX4' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2104]
+INFO: [Synth 8-9937] previous definition of design element 'BUFGMUX_VIRTEX4' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2104]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFGP' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2114]
+INFO: [Synth 8-9937] previous definition of design element 'BUFGP' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2114]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFG_FABRIC' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2124]
+INFO: [Synth 8-9937] previous definition of design element 'BUFG_FABRIC' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2124]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFG_GT' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2146]
+INFO: [Synth 8-9937] previous definition of design element 'BUFG_GT' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2146]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFG_GT_SYNC' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2162]
+INFO: [Synth 8-9937] previous definition of design element 'BUFG_GT_SYNC' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2162]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFG_HM' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2173]
+INFO: [Synth 8-9937] previous definition of design element 'BUFG_HM' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2173]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFG_LB' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2183]
+INFO: [Synth 8-9937] previous definition of design element 'BUFG_LB' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2183]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFG_PS' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2195]
+INFO: [Synth 8-9937] previous definition of design element 'BUFG_PS' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2195]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFH' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2205]
+INFO: [Synth 8-9937] previous definition of design element 'BUFH' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2205]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFHCE' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2220]
+INFO: [Synth 8-9937] previous definition of design element 'BUFHCE' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2220]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFIO' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2230]
+INFO: [Synth 8-9937] previous definition of design element 'BUFIO' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2230]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFIO2' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2248]
+INFO: [Synth 8-9937] previous definition of design element 'BUFIO2' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2248]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFIODQS' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2261]
+INFO: [Synth 8-9937] previous definition of design element 'BUFIODQS' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2261]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFMR' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2271]
+INFO: [Synth 8-9937] previous definition of design element 'BUFMR' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2271]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFMRCE' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2286]
+INFO: [Synth 8-9937] previous definition of design element 'BUFMRCE' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2286]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BUFR' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2302]
+INFO: [Synth 8-9937] previous definition of design element 'BUFR' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2302]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'CAPTUREE2' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2313]
+INFO: [Synth 8-9937] previous definition of design element 'CAPTUREE2' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2313]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'CAPTURE_SPARTAN3' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2323]
+INFO: [Synth 8-9937] previous definition of design element 'CAPTURE_SPARTAN3' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2323]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'CAPTURE_SPARTAN3A' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2333]
+INFO: [Synth 8-9937] previous definition of design element 'CAPTURE_SPARTAN3A' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2333]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'CAPTURE_VIRTEX4' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2343]
+INFO: [Synth 8-9937] previous definition of design element 'CAPTURE_VIRTEX4' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2343]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'CAPTURE_VIRTEX5' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2353]
+INFO: [Synth 8-9937] previous definition of design element 'CAPTURE_VIRTEX5' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2353]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'CAPTURE_VIRTEX6' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2363]
+INFO: [Synth 8-9937] previous definition of design element 'CAPTURE_VIRTEX6' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2363]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'CARRY4' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2381]
+INFO: [Synth 8-9937] previous definition of design element 'CARRY4' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2381]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'CARRY8' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2400]
+INFO: [Synth 8-9937] previous definition of design element 'CARRY8' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2400]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'CFGLUT5' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2430]
+INFO: [Synth 8-9937] previous definition of design element 'CFGLUT5' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2430]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'CLKDLL' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2460]
+INFO: [Synth 8-9937] previous definition of design element 'CLKDLL' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2460]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'CLKDLLE' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2492]
+INFO: [Synth 8-9937] previous definition of design element 'CLKDLLE' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2492]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'CLKDLLHF' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2516]
+INFO: [Synth 8-9937] previous definition of design element 'CLKDLLHF' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2516]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'CLOCK_MOD_CLE_FF' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2530]
+INFO: [Synth 8-9937] previous definition of design element 'CLOCK_MOD_CLE_FF' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2530]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'CLOCK_MOD_CLE_IMR' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2544]
+INFO: [Synth 8-9937] previous definition of design element 'CLOCK_MOD_CLE_IMR' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2544]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'CLOCK_MOD_IRI_FF' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2557]
+INFO: [Synth 8-9937] previous definition of design element 'CLOCK_MOD_IRI_FF' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2557]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'CLOCK_MOD_IRI_IMR' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2572]
+INFO: [Common 17-14] Message 'Synth 8-9873' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-9937] previous definition of design element 'CLOCK_MOD_IRI_IMR' is here [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2572]
+INFO: [Common 17-14] Message 'Synth 8-9937' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 8518.816 ; gain = 71.812 ; free physical = 8351 ; free virtual = 13877
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'Ucol', assumed default net type 'wire' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/Molecule.v:26]
+INFO: [Synth 8-11241] undeclared symbol 'Dcol', assumed default net type 'wire' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/Molecule.v:27]
+INFO: [Synth 8-6157] synthesizing module 'Lab6Top' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/Lab6Top.v:4]
+INFO: [Synth 8-6157] synthesizing module 'labVGA_clks' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/labVGA_clks.v:24]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/labVGA_clks.v:55]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:73631]
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:73631]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:82174]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 9.125000 - type: double 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: double 
+	Parameter CLKOUT0_DIVIDE_F bound to: 36.500000 - type: double 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:82174]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1951]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1951]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/labVGA_clks.v:55]
+INFO: [Synth 8-6157] synthesizing module 'clkcntrl4' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/labVGA_clks.v:188]
+INFO: [Synth 8-6157] synthesizing module 'CB4CE_MXILINX_clkcntrl4' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/labVGA_clks.v:304]
+INFO: [Synth 8-6157] synthesizing module 'FTCE_MXILINX_clkcntrl4' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/labVGA_clks.v:274]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'XOR2' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139043]
+INFO: [Synth 8-6155] done synthesizing module 'XOR2' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139043]
+INFO: [Synth 8-6157] synthesizing module 'FDCE' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40789]
+INFO: [Synth 8-6155] done synthesizing module 'FDCE' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40789]
+INFO: [Synth 8-6155] done synthesizing module 'FTCE_MXILINX_clkcntrl4' (0#1) [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/labVGA_clks.v:274]
+INFO: [Synth 8-6157] synthesizing module 'AND4' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1001]
+INFO: [Synth 8-6155] done synthesizing module 'AND4' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1001]
+INFO: [Synth 8-6157] synthesizing module 'AND3' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:953]
+INFO: [Synth 8-6155] done synthesizing module 'AND3' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:953]
+INFO: [Synth 8-6157] synthesizing module 'AND2' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:905]
+INFO: [Synth 8-6155] done synthesizing module 'AND2' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:905]
+INFO: [Synth 8-6157] synthesizing module 'VCC' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:137428]
+INFO: [Synth 8-6155] done synthesizing module 'VCC' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:137428]
+INFO: [Synth 8-6155] done synthesizing module 'CB4CE_MXILINX_clkcntrl4' (0#1) [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/labVGA_clks.v:304]
+INFO: [Synth 8-6157] synthesizing module 'BUF' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1897]
+INFO: [Synth 8-6155] done synthesizing module 'BUF' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1897]
+INFO: [Synth 8-6155] done synthesizing module 'clkcntrl4' (0#1) [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/labVGA_clks.v:188]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/labVGA_clks.v:38]
+INFO: [Synth 8-6157] synthesizing module 'STARTUPE2' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133907]
+	Parameter PROG_USR bound to: FALSE - type: string 
+	Parameter SIM_CCLK_FREQ bound to: 0.000000 - type: double 
+INFO: [Synth 8-6155] done synthesizing module 'STARTUPE2' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133907]
+INFO: [Synth 8-6155] done synthesizing module 'labVGA_clks' (0#1) [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/labVGA_clks.v:24]
+INFO: [Synth 8-6157] synthesizing module 'Molecule' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/Molecule.v:4]
+INFO: [Synth 8-6157] synthesizing module 'FDRE' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005]
+INFO: [Synth 8-6157] synthesizing module 'countUD16L' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/16bitcounter.v:3]
+INFO: [Synth 8-6157] synthesizing module 'countUD8L' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/8bitcounter.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'countUD8L' (0#1) [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/8bitcounter.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'countUD16L' (0#1) [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/16bitcounter.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'Molecule' (0#1) [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/Molecule.v:4]
+INFO: [Synth 8-6157] synthesizing module 'PixelPosition' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/PixelPosition.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'PixelPosition' (0#1) [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/PixelPosition.v:4]
+INFO: [Synth 8-6157] synthesizing module 'PixelProcessor' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/PixelProcesssor.v:4]
+INFO: [Synth 8-6157] synthesizing module 'FDRE__parameterized0' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'FDRE__parameterized0' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005]
+INFO: [Synth 8-6155] done synthesizing module 'PixelProcessor' (0#1) [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/PixelProcesssor.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'Lab6Top' (0#1) [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/Lab6Top.v:4]
+WARNING: [Synth 8-3917] design Lab6Top has port seg[6] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port seg[5] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port seg[4] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port seg[3] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port seg[2] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port seg[1] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port seg[0] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port dp driven by constant 1
+WARNING: [Synth 8-3917] design Lab6Top has port an[3] driven by constant 1
+WARNING: [Synth 8-3917] design Lab6Top has port an[2] driven by constant 1
+WARNING: [Synth 8-3917] design Lab6Top has port an[1] driven by constant 1
+WARNING: [Synth 8-3917] design Lab6Top has port an[0] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[15] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[14] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[13] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[12] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[11] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[10] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[9] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[8] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[7] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[6] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[5] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[4] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[3] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[2] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[1] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[0] driven by constant 0
+WARNING: [Synth 8-7129] Port membraneOn in module PixelProcessor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[15] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[14] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[13] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[12] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[11] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[10] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[9] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[8] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[7] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[6] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[5] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[4] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[3] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[2] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[1] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[0] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port btnR in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port btnU in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port btnD in module Lab6Top is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8633.629 ; gain = 186.625 ; free physical = 8249 ; free virtual = 13776
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8633.629 ; gain = 186.625 ; free physical = 8249 ; free virtual = 13776
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8633.629 ; gain = 186.625 ; free physical = 8249 ; free virtual = 13776
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8639.566 ; gain = 0.000 ; free physical = 8446 ; free virtual = 13974
+INFO: [Netlist 29-17] Analyzing 51 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/constrs_1/imports/Downloads/Basys3_Master.xdc]
+Finished Parsing XDC File [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/constrs_1/imports/Downloads/Basys3_Master.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8804.434 ; gain = 0.000 ; free physical = 8521 ; free virtual = 14049
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 49 instances were transformed.
+  AND2 => LUT2: 12 instances
+  AND3 => LUT3: 6 instances
+  AND4 => LUT4: 6 instances
+  BUF => LUT1: 1 instance 
+  XOR2 => LUT2: 24 instances
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 8813.391 ; gain = 366.387 ; free physical = 8482 ; free virtual = 14010
+157 Infos, 49 Warnings, 100 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 8813.391 ; gain = 366.387 ; free physical = 8482 ; free virtual = 14010
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2306.520; main = 2306.520; forked = 0.000
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 8792.230; main = 8792.230; forked = 0.000
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: Lab6Top
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 8838.215 ; gain = 0.000 ; free physical = 8149 ; free virtual = 13677
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'Ucol', assumed default net type 'wire' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/Molecule.v:26]
+INFO: [Synth 8-11241] undeclared symbol 'Dcol', assumed default net type 'wire' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/Molecule.v:27]
+INFO: [Synth 8-6157] synthesizing module 'Lab6Top' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/Lab6Top.v:4]
+INFO: [Synth 8-6157] synthesizing module 'labVGA_clks' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/labVGA_clks.v:24]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/labVGA_clks.v:55]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:73631]
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:73631]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:82174]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 9.125000 - type: double 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: double 
+	Parameter CLKOUT0_DIVIDE_F bound to: 36.500000 - type: double 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:82174]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1951]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1951]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/labVGA_clks.v:55]
+INFO: [Synth 8-6157] synthesizing module 'clkcntrl4' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/labVGA_clks.v:188]
+INFO: [Synth 8-6157] synthesizing module 'CB4CE_MXILINX_clkcntrl4' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/labVGA_clks.v:304]
+INFO: [Synth 8-6157] synthesizing module 'FTCE_MXILINX_clkcntrl4' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/labVGA_clks.v:274]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'XOR2' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139043]
+INFO: [Synth 8-6155] done synthesizing module 'XOR2' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139043]
+INFO: [Synth 8-6157] synthesizing module 'FDCE' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40789]
+INFO: [Synth 8-6155] done synthesizing module 'FDCE' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40789]
+INFO: [Synth 8-6155] done synthesizing module 'FTCE_MXILINX_clkcntrl4' (0#1) [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/labVGA_clks.v:274]
+INFO: [Synth 8-6157] synthesizing module 'AND4' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1001]
+INFO: [Synth 8-6155] done synthesizing module 'AND4' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1001]
+INFO: [Synth 8-6157] synthesizing module 'AND3' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:953]
+INFO: [Synth 8-6155] done synthesizing module 'AND3' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:953]
+INFO: [Synth 8-6157] synthesizing module 'AND2' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:905]
+INFO: [Synth 8-6155] done synthesizing module 'AND2' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:905]
+INFO: [Synth 8-6157] synthesizing module 'VCC' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:137428]
+INFO: [Synth 8-6155] done synthesizing module 'VCC' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:137428]
+INFO: [Synth 8-6155] done synthesizing module 'CB4CE_MXILINX_clkcntrl4' (0#1) [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/labVGA_clks.v:304]
+INFO: [Synth 8-6157] synthesizing module 'BUF' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1897]
+INFO: [Synth 8-6155] done synthesizing module 'BUF' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1897]
+INFO: [Synth 8-6155] done synthesizing module 'clkcntrl4' (0#1) [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/labVGA_clks.v:188]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/labVGA_clks.v:38]
+INFO: [Synth 8-6157] synthesizing module 'STARTUPE2' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133907]
+	Parameter PROG_USR bound to: FALSE - type: string 
+	Parameter SIM_CCLK_FREQ bound to: 0.000000 - type: double 
+INFO: [Synth 8-6155] done synthesizing module 'STARTUPE2' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133907]
+INFO: [Synth 8-6155] done synthesizing module 'labVGA_clks' (0#1) [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/labVGA_clks.v:24]
+INFO: [Synth 8-6157] synthesizing module 'Molecule' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/Molecule.v:4]
+INFO: [Synth 8-6157] synthesizing module 'FDRE' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005]
+INFO: [Synth 8-6157] synthesizing module 'countUD16L' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/16bitcounter.v:3]
+INFO: [Synth 8-6157] synthesizing module 'countUD8L' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/8bitcounter.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'countUD8L' (0#1) [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/8bitcounter.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'countUD16L' (0#1) [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/16bitcounter.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'Molecule' (0#1) [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/Molecule.v:4]
+INFO: [Synth 8-6157] synthesizing module 'PixelPosition' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/PixelPosition.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'PixelPosition' (0#1) [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/PixelPosition.v:4]
+INFO: [Synth 8-6157] synthesizing module 'PixelProcessor' [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/PixelProcesssor.v:4]
+INFO: [Synth 8-6157] synthesizing module 'FDRE__parameterized0' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'FDRE__parameterized0' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005]
+INFO: [Synth 8-6155] done synthesizing module 'PixelProcessor' (0#1) [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/PixelProcesssor.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'Lab6Top' (0#1) [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/sources_1/new/Lab6Top.v:4]
+WARNING: [Synth 8-3917] design Lab6Top has port seg[6] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port seg[5] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port seg[4] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port seg[3] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port seg[2] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port seg[1] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port seg[0] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port dp driven by constant 1
+WARNING: [Synth 8-3917] design Lab6Top has port an[3] driven by constant 1
+WARNING: [Synth 8-3917] design Lab6Top has port an[2] driven by constant 1
+WARNING: [Synth 8-3917] design Lab6Top has port an[1] driven by constant 1
+WARNING: [Synth 8-3917] design Lab6Top has port an[0] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[15] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[14] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[13] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[12] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[11] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[10] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[9] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[8] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[7] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[6] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[5] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[4] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[3] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[2] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[1] driven by constant 0
+WARNING: [Synth 8-3917] design Lab6Top has port led[0] driven by constant 0
+WARNING: [Synth 8-7129] Port membraneOn in module PixelProcessor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[15] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[14] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[13] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[12] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[11] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[10] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[9] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[8] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[7] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[6] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[5] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[4] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[3] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[2] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[1] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[0] in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port btnR in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port btnU in module Lab6Top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port btnD in module Lab6Top is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 8838.215 ; gain = 0.000 ; free physical = 8149 ; free virtual = 13677
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 8838.215 ; gain = 0.000 ; free physical = 8149 ; free virtual = 13677
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 8838.215 ; gain = 0.000 ; free physical = 8149 ; free virtual = 13677
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 8838.215 ; gain = 0.000 ; free physical = 8149 ; free virtual = 13677
+INFO: [Netlist 29-17] Analyzing 51 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/constrs_1/imports/Downloads/Basys3_Master.xdc]
+Finished Parsing XDC File [/home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/constrs_1/imports/Downloads/Basys3_Master.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8838.215 ; gain = 0.000 ; free physical = 8408 ; free virtual = 13936
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 49 instances were transformed.
+  AND2 => LUT2: 12 instances
+  AND3 => LUT3: 6 instances
+  AND4 => LUT4: 6 instances
+  BUF => LUT1: 1 instance 
+  XOR2 => LUT2: 24 instances
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 8878.234 ; gain = 40.020 ; free physical = 8410 ; free virtual = 13938
+55 Infos, 49 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 8878.234 ; gain = 40.020 ; free physical = 8410 ; free virtual = 13938
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2335.422; main = 2335.422; forked = 0.000
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 8852.230; main = 8852.230; forked = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/bdwatkin/Desktop/Lab_6/Lab_6.srcs/utils_1/imports/synth_1/Lab6Top.dcp with file /home/bdwatkin/Desktop/Lab_6/Lab_6.runs/synth_1/Lab6Top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Feb 25 19:23:31 2025] Launched synth_1...
+Run output will be captured here: /home/bdwatkin/Desktop/Lab_6/Lab_6.runs/synth_1/runme.log
+[Tue Feb 25 19:23:31 2025] Launched impl_1...
+Run output will be captured here: /home/bdwatkin/Desktop/Lab_6/Lab_6.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2023.2
+  **** Build date : Oct 13 2023 at 20:26:23
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.2.0
+  ****** Build date   : Oct 09 2023-21:01:56
+    **** Build number : 2023.2.1696910516
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B312ABA
+set_property PROGRAM.FILE {/home/bdwatkin/Desktop/Lab_6/Lab_6.runs/impl_1/Lab6Top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/bdwatkin/Desktop/Lab_6/Lab_6.runs/impl_1/Lab6Top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+archive_project /home/bdwatkin/Desktop/Lab_6_v1.1.xpr.zip -force -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location './.Xil/Vivado-48474-BELSPC0189' for archiving project
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/bdwatkin/Desktop/Lab_6/Lab_6.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sim_2'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_2'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'utils_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'utils_1'
